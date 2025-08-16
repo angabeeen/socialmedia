@@ -1,11 +1,10 @@
 /* src/App.css */
 
-/* Global container styles */
 .container {
-  max-width: 1200px;  /* Max width of the container */
-  margin: 2px auto;     /* Center the container */
+  max-width: 1200px;
+  margin: 2px auto;    
   padding: 20px;    
-  border: 2px solid #000000;  /* Add padding around the container */
+  border: 2px solid #000000;  
 }
 
 
@@ -13,8 +12,8 @@
   border: 2px solid #ff6347;
   margin: 5px;
   width: 90%;
-  max-width: 600px; /* limit width on large screens */
-  margin: 20px auto; /* center it */
+  max-width: 600px; 
+  margin: 20px auto; 
   padding: 10px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   border-radius: 10px;
@@ -22,11 +21,10 @@
   
 }
 .post img {
-  max-width: 100%;   /* image will not exceed container width */
-  height: auto;      /* maintain aspect ratio */
-  display: block;    /* removes tiny gaps below image */
-  border-radius: 8px; /* optional, makes image corners rounded */
-}
+  max-width: 100%;   
+  height: auto;      
+  display: block;   
+  border-radius: 8px; }
 
 /* General body styling */
 body {
@@ -39,9 +37,6 @@ body {
 
 
 
-
-
-/* Button styling for Login, Sign Up, Logout */
 button {
   background-color: #ff6347;
   color: white;
@@ -57,7 +52,7 @@ button:hover {
   background-color: #ff4500;
 }
 
-/* Styling for components inside the container (Login, SignUp, Home, Feed, etc.) */
+
 form {
   display: flex;
   flex-direction: column;
@@ -96,17 +91,13 @@ button[type='submit']:hover {
   background-color: #ff4500;
 }
 
-/* Center content vertically and horizontally in the body */
 .centered-content {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80vh; /* Adjust height based on content */
+  height: 80vh; 
 }
 
-/* Responsive Design */
-
-/* Mobile view */
 @media (max-width: 768px) {
  
 
@@ -116,7 +107,7 @@ button[type='submit']:hover {
   }
 
   form {
-    width: 90%;  /* Take up most of the screen width */
+    width: 90%; 
     padding: 15px;
   }
 
@@ -233,7 +224,7 @@ button[type='submit']:hover {
   }
 
   .nav-links.active {
-    display: flex; /* 🔧 Only show when toggled */
+    display: flex; 
   }
 
   .nav-links li a,
